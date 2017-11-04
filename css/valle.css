@@ -1,0 +1,13 @@
+h1, i, a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a svg:hover {
+    -webkit-filter: drop-shadow( 3px 3px 2px rgba(0,0,0,.7) ); 
+    filter: drop-shadow( 3px 3px 2px rgba(0,0,0,.7) );
+}
