@@ -1,5 +1,5 @@
 h1, i, a, svg {
-    color: white;
+    color: white !important;
 }
 
 a:hover {
