@@ -2,12 +2,16 @@
     color: white !important;
 }
 
-a {
+.v-nav-item > a {
     color: rgba(255, 255, 255, 0.8) !important;
 }
 
-a:hover {
+.v-nav-item > a:hover {
     text-decoration: none;
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.v-nav-active > a {
     color: rgba(255, 255, 255, 1) !important;
 }
 

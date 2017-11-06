@@ -1,5 +1,14 @@
 $(function() {
 
+    $('.v-brand').click(function(){
+        $('.v-nav-item').removeClass('v-nav-active');
+    });
+    
+    $('.v-nav-item > a').click(function(){
+        $('.v-nav-item').removeClass('v-nav-active');
+        $(this).parent().addClass('v-nav-active');
+    });
+
   var routes = {
     "/": () => {},
     "/about": () => {},
