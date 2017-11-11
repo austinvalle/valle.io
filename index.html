@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <div class="uk-background-primary">
-        <div class="uk-container uk-section-primary uk-position-top">
-            <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" uk-navbar>
+    <div class="uk-flex uk-flex-column uk-background-primary" uk-height-viewport>
+        <div class="uk-section-primary">
+            <nav class="uk-container uk-navbar uk-navbar-container uk-navbar-transparent" uk-navbar>
                 <div class="uk-navbar-left">
                     <a href="#/" class="uk-navbar-item uk-logo v-white v-brand">valle.io</a>
                 </div>
@@ -33,23 +33,18 @@
                 </div>
             </nav>
         </div>
-        <div class="uk-flex uk-flex-middle uk-flex-center uk-height-viewport" uk-grid>
+        <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-1">
             <section data-route="home" style="display: none;">
-                <div>
-                    <div>
-                        <img class="uk-border-circle uk-box-shadow-hover-xlarge" src="./images/portfolio-image.jpg" alt="Austin Valle"
-                        />
-                    </div>
-                    <div class="uk-text-center uk-margin-small-top">
-                        <h4 class="v-white">I design and build software.</h4>
-                    </div>
-                    <div class="uk-flex-center uk-grid-large uk-margin-small-top" uk-grid>
-                        <a target="_blank" class="v-white v-shadow-icon" href="https://github.com/moosebot" uk-icon="icon: github; ratio: 2"></a>
-                        <a target="_blank" class="v-white v-shadow-icon" href="https://www.linkedin.com/in/austin-valle-9773496a/" uk-icon="icon: linkedin; ratio: 2"></a>
-                        <a target="_blank" class="v-white v-shadow-icon" href="https://twitter.com/_moosebot" uk-icon="icon: twitter; ratio: 2"></a>
-                        <a target="_blank" class="v-white v-shadow-icon" href="https://www.youtube.com/channel/UC6G4-Xp-d-geuCGoITlCwZw?view_as=subscriber"
-                            uk-icon="icon: youtube; ratio: 2"></a>
-                    </div>
+                <img class="uk-border-circle uk-box-shadow-hover-xlarge" src="./images/portfolio-image.jpg" alt="Austin Valle" />
+                <div class="uk-text-center uk-margin-small-top">
+                    <h4 class="v-white">I design and build software.</h4>
+                </div>
+                <div class="uk-flex-center uk-grid-large uk-margin-small-top" uk-grid>
+                    <a target="_blank" class="v-white v-shadow-icon" href="https://github.com/moosebot" uk-icon="icon: github; ratio: 2"></a>
+                    <a target="_blank" class="v-white v-shadow-icon" href="https://www.linkedin.com/in/austin-valle-9773496a/" uk-icon="icon: linkedin; ratio: 2"></a>
+                    <a target="_blank" class="v-white v-shadow-icon" href="https://twitter.com/_moosebot" uk-icon="icon: twitter; ratio: 2"></a>
+                    <a target="_blank" class="v-white v-shadow-icon" href="https://www.youtube.com/channel/UC6G4-Xp-d-geuCGoITlCwZw?view_as=subscriber"
+                        uk-icon="icon: youtube; ratio: 2"></a>
                 </div>
             </section>
             <section data-route="about" style="display: none;">
@@ -62,7 +57,6 @@
                 <h1 class="v-white">Contact Page</h1>
             </section>
         </div>
-
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.31/js/uikit.min.js"></script>
