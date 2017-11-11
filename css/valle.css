@@ -2,6 +2,10 @@
     color: white !important;
 }
 
+.v-black, a.v-black svg {
+    color: black !important;
+}
+
 .v-nav-item > a {
     position: relative;
     color: rgba(255, 255, 255, 0.8) !important;
