@@ -11,8 +11,7 @@ $(function() {
 
   var routes = {
     "/": () => {},
-    "/about": () => {},
-    "/contact": () => {}
+    "/about": () => {}
   };
 
   var dispatchRoute = () => {
