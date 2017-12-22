@@ -12,7 +12,6 @@ $(function() {
   var routes = {
     "/": () => {},
     "/about": () => {},
-    "/projects": () => {},
     "/contact": () => {}
   };
 
