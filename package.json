@@ -1,7 +1,7 @@
 {
   "name": "valle.io",
   "version": "0.1.0",
-  "homepage": "https://moosebot.github.io/valle.io",
+  "homepage": "http://valle.io",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
