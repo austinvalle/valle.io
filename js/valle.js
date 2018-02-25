@@ -10,11 +10,11 @@ $(function() {
     });
 
   var routes = {
-    "/": () => {},
-    "/about": () => {}
+    "/": function() {},
+    "/about": function() {}
   };
 
-  var dispatchRoute = () => {
+  var dispatchRoute = function() {
     var route = window.location.hash.slice(2);
     var oldSection = $("section:visible");
     var newSection =
