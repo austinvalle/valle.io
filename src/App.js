@@ -1,21 +1,51 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">New site coming soon...</h1>
-        </header>
-        <h1>Regular heading 1</h1>
-        <h2>Different header 2</h2>
-        <h3>Can'think of anything to do</h3>
-        <h4>Here is some <code>font-family: "stuff here"</code></h4>
-        <p>Some <i>italics</i> and some <b>bold</b> text</p>
-        <br/>
+      <div>
+        <nav className="io-nav">
+          <ul className="io-nav-items" role="navigation">
+            <li><a href="/" className="io-nav-brand">valle.io</a></li>
+            <li>About</li>
+            <li>Projects</li>
+            <li style={{marginRight: "auto"}}>Skills</li>
+            <li>
+              <a target="_blank" href="https://github.com/moosebot" className="io-icon" rel="noopener noreferrer">
+                <i className="io-icon fab fa-github"/>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/in/austin-valle-9773496a/" className="io-icon" rel="noopener noreferrer">
+                <i className="fab fa-linkedin-in"/>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://twitter.com/_moosebot" className="io-icon" rel="noopener noreferrer">
+                <i className="fab fa-twitter"/>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.youtube.com/channel/UC6G4-Xp-d-geuCGoITlCwZw?view_as=subscriber" className="io-icon" rel="noopener noreferrer">
+                <i className="fab fa-youtube"/>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="mailto:austinvalle@gmail.com" className="io-icon" rel="noopener noreferrer">
+                <i className="fas fa-envelope"/>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div style={{textAlign: "center"}}>
+          <h1>Regular heading 1</h1>
+          <h2>Different header 2</h2>
+          <h3>Can't think of anything to do</h3>
+          <h4>Here is some <code>font-family: "stuff here"</code></h4>
+          <p>Some <i>italics</i> and some <b>bold</b> text</p>
+          <br/>
+        </div>
         <div className="app-container">
           <div className="app-item">
 <div style={{fontWeight: 300}}>
