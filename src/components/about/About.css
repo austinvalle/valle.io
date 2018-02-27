@@ -1,0 +1,17 @@
+.io-about-img {
+  width: 1200px;
+  max-width: 100%;
+}
+
+.io-about-body {
+  max-width: 85%;
+  width: 1200px;
+}
+
+.io-about-body > p {
+    margin-bottom: 30px;
+}
+
+.io-container > div {
+    margin-top: 20px;
+}

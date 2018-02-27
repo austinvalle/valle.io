@@ -18,18 +18,13 @@
 
 .io-nav-brand {
     font-size: 1.8em;
-    color: #ffffff;
-    text-decoration: none;
 }
 
 .io-nav-link > a {
-    text-decoration: none;
     position: relative;
-    color: #ffffff;
 }
 
 .io-nav-link > a:hover {
-    text-decoration: none;
     color: #907ad6;
 }
 

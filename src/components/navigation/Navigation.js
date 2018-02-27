@@ -35,7 +35,7 @@ class Navigation extends Component {
                   </a>
                 </li>
                 <li>
-                  <a target="_blank" href="mailto:austinvalle@gmail.com" className="io-icon" rel="noopener noreferrer">
+                  <a href="mailto:austinvalle@gmail.com" className="io-icon" rel="noopener noreferrer">
                     <i className="fas fa-envelope"/>
                   </a>
                 </li>
