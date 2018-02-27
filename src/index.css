@@ -5,3 +5,17 @@ body {
   background-color: #584B91;
   color: #ffffff;
 }
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a.io-link {
+  font-weight: 700;
+}
+
+a.io-link:hover {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
