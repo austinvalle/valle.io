@@ -1,42 +1,9 @@
-.io-nav {
-  background-color: #222;
-  height: 60px;
-  padding: 20px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.io-nav-items {
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-
-.io-nav-items > li {
-  padding-left: 5px;
-  padding-right: 20px;
-}
-
-.io-nav-brand {
-  font-size: 1.8em;
-  color: #ffffff;
-  text-decoration-line: none;
-}
-
-.io-icon {
-  color: #ffffff;
-  font-size: 28px;
-}
-
-.io-icon svg:hover {
-  color: #907ad6;
-}
-
-.app-container {
+.io-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.app-item {
+.io-container-item {
   max-width: 75%;
 }
