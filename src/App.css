@@ -1,9 +1,10 @@
 .io-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .io-container-item {
-  max-width: 75%;
+  max-width: 85%;
 }
