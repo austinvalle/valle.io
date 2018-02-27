@@ -3,15 +3,17 @@ import { NavLink } from 'react-router-dom'
 
 import './Navigation.css';
 
+const activeLinkStyle = { color: '#907ad6' }
+
 class Navigation extends Component {
     render() {
         return (
             <nav className="io-nav">
               <ul className="io-nav-items" role="navigation">
                 <li><NavLink to='/' className="io-nav-brand">valle.io</NavLink></li>
-                <li className="io-nav-link"><NavLink to='/about' activeStyle={{ color: '#907ad6' }}>About</NavLink></li>
-                <li className="io-nav-link"><NavLink to='/projects' activeStyle={{ color: '#907ad6' }}>Projects</NavLink></li>
-                <li className="io-nav-link" style={{marginRight: "auto"}}><NavLink to='/skills' activeStyle={{ color: '#907ad6' }}>Skills</NavLink></li>
+                <li className="io-nav-link"><NavLink to='/about' activeStyle={activeLinkStyle}>About</NavLink></li>
+                <li className="io-nav-link"><NavLink to='/projects' activeStyle={activeLinkStyle}>Projects</NavLink></li>
+                <li className="io-nav-link" style={{marginRight: "auto"}}><NavLink to='/skills' activeStyle={activeLinkStyle}>Skills</NavLink></li>
                 <li>
                   <a target="_blank" href="https://github.com/moosebot" className="io-icon" rel="noopener noreferrer">
                     <i className="io-icon fab fa-github"/>
