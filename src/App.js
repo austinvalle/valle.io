@@ -5,7 +5,6 @@ import Navigation from './components/navigation/Navigation'
 import Home from './components/home/Home'
 import About from './components/about/About'
 import Projects from './components/projects/Projects'
-import Skills from './components/skills/Skills'
 
 import './App.css';
 
@@ -21,7 +20,6 @@ class App extends Component {
             <Route exact path='/' component={Home} />
             <Route path='/about' component={About} />
             <Route path='/projects' component={Projects} />
-            <Route path='/skills' component={Skills} />
             <Route component={Home} />
           </Switch>
         </main>
