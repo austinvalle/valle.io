@@ -12,8 +12,7 @@ class Navigation extends Component {
               <ul className="io-nav-items" role="navigation">
                 <li><NavLink to='/' className="io-nav-brand">valle.io</NavLink></li>
                 <li className="io-nav-link"><NavLink to='/about' activeStyle={activeLinkStyle}>About</NavLink></li>
-                <li className="io-nav-link"><NavLink to='/projects' activeStyle={activeLinkStyle}>Projects</NavLink></li>
-                <li className="io-nav-link" style={{marginRight: "auto"}}><NavLink to='/skills' activeStyle={activeLinkStyle}>Skills</NavLink></li>
+                <li className="io-nav-link" style={{marginRight: "auto"}}><NavLink to='/projects' activeStyle={activeLinkStyle}>Projects</NavLink></li>
                 <li>
                   <a target="_blank" href="https://github.com/moosebot" className="io-icon" rel="noopener noreferrer">
                     <i className="io-icon fab fa-github"/>
