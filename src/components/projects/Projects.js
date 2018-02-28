@@ -14,7 +14,9 @@ class Projects extends Component {
                     transitionLeaveTimeout={200}
                     transitionName={this.props.match.path === '/projects' ? 'SlideIn' : 'SlideOut'}
                 >
-                    <h1>Projects page</h1>
+                    <div className="io-container">
+                        <h2>Coming soon...</h2>
+                    </div>
                 </ReactCSSTransitionGroup>
             </div>
         )

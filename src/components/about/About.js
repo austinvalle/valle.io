@@ -14,7 +14,7 @@ class About extends Component {
                 transitionName={this.props.match.path === '/about' ? 'SlideIn' : 'SlideOut'}
             >
                 <div className="io-container">
-                    <h2>About me</h2>
+                    <h2>Coming soon...</h2>
                 </div>
             </ReactCSSTransitionGroup>
         )
