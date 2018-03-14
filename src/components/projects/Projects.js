@@ -26,7 +26,7 @@ const projects = [
         ]
     },
     {
-        'name': 'MoveYourPainAway (private)',
+        'name': 'Move Your Pain Away (private)',
         'description': 'Web app built for client that allows physical therapy patients to rehabilitate injuries by completing video lessons',
         'logoUrl': 'https://i.imgur.com/bfI20su.png',
         'technologies': [
@@ -52,7 +52,7 @@ class Projects extends Component {
                     <div className="io-container io-projects-container">
                         {
                             projects.map((project, i) => (
-                                <div className="io-project-card">
+                                <div className="io-project-card" key={i}>
                                     <a target="_blank" href={project.gitRepo} rel="noopener noreferrer">
                                         <img className="io-project-picture" src={project.logoUrl} alt={project.name}/>
                                     </a>
@@ -68,10 +68,10 @@ class Projects extends Component {
                                             }
                                         </div>
                                         <p style={{marginBottom: "auto"}}>{project.description}</p>
-                                        <div style={{marginBottom: "30px"}}>
+                                        <div style={{marginTop: "auto", marginBottom: "auto", padding: "10px"}}>
                                             {
                                                 project.technologies != null && project.technologies.map((tech, i) => (
-                                                    <a target="_blank" href={tech.source} rel="noopener noreferrer">
+                                                    <a target="_blank" href={tech.source} rel="noopener noreferrer" key={i}>
                                                         <div className="io-tooltip">
                                                             <img className="io-project-tech-icon" src={tech.url} alt={tech.name}/>
                                                             <span className="io-tooltip-text">{tech.name}</span>

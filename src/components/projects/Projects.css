@@ -64,3 +64,23 @@
     visibility: visible;
     opacity: 1;
 }
+
+@media (max-width: 768px)
+{
+    .io-project-card {
+        width: 100%;
+    }
+
+    .io-project-picture {
+        height: auto;
+        width: 100%;
+    }    
+
+    .io-project-content {
+        max-width: 50%;
+    }
+
+    .io-project-card > a {
+        margin: auto;
+    }
+}
