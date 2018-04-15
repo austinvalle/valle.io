@@ -3,19 +3,22 @@
     height: 60px;
     padding: 20px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    display: flex;
+    align-items: center;
 }
-
+    
 .io-nav-items {
     display: flex;
     align-items: center;
     list-style: none;
+    flex-grow: 1;
 }
 
 .io-nav-items > li {
     padding-left: 5px;
     padding-right: 20px;
 }
-
+    
 .io-nav-brand {
     font-size: 1.8em;
 }
@@ -58,4 +61,11 @@
 
 .io-icon svg:hover {
     color: #907ad6;
+}
+
+@media (max-width: 640px)
+{
+    .io-icon {
+        display: none;
+    }
 }

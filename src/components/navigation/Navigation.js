@@ -9,11 +9,11 @@ class Navigation extends Component {
     render() {
         return (
             <nav className="io-nav">
+              <NavLink to='/' className="io-nav-brand">valle.io</NavLink>
               <ul className="io-nav-items" role="navigation">
-                <li><NavLink to='/' className="io-nav-brand">valle.io</NavLink></li>
                 <li className="io-nav-link"><NavLink to='/about' activeStyle={activeLinkStyle}>About</NavLink></li>
-                <li className="io-nav-link" style={{marginRight: "auto"}}><NavLink to='/projects' activeStyle={activeLinkStyle}>Projects</NavLink></li>
-                <li>
+                <li className="io-nav-link"><NavLink to='/projects' activeStyle={activeLinkStyle}>Projects</NavLink></li>
+                <li style={{marginLeft: "auto"}}>
                   <a target="_blank" href="https://github.com/moosebot" className="io-icon" rel="noopener noreferrer">
                     <i className="io-icon fab fa-github"/>
                   </a>
