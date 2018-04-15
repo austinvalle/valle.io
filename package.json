@@ -1,16 +1,22 @@
 {
   "name": "valle.io",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "license": "MIT",
   "homepage": "http://valle.io",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/moosebot/valle.io.git"
+  },
   "dependencies": {
-    "react": "^16.2.0",
+    "ajv": "^6.4.0",
+    "react": "^16.3.1",
     "react-addons-css-transition-group": "^15.6.2",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.3.1",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.1"
+    "react-scripts": "^1.1.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build -m \"Elevated to ghpages\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
