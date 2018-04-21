@@ -11,7 +11,6 @@ class Navigation extends Component {
             <nav className="io-nav">
               <NavLink to='/' className="io-nav-brand">valle.io</NavLink>
               <ul className="io-nav-items" role="navigation">
-                <li className="io-nav-link"><NavLink to='/about' activeStyle={activeLinkStyle}>About</NavLink></li>
                 <li className="io-nav-link"><NavLink to='/projects' activeStyle={activeLinkStyle}>Projects</NavLink></li>
                 <li style={{marginLeft: "auto"}}>
                   <a target="_blank" href="https://github.com/moosebot" className="io-icon" rel="noopener noreferrer">

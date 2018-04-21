@@ -16,7 +16,7 @@
     "react-scripts": "^1.1.1"
   },
   "scripts": {
-    "predeploy": "yarn run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build -m \"Elevated to ghpages\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
