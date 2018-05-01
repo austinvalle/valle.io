@@ -1,3 +1,3 @@
 # valle.io
 
-Portfolio site for Austin Valle built with React
+Portfolio site for Austin Valle built with Hugo static site generator

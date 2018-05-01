@@ -34,5 +34,5 @@ pygmentsUseClasses = true
 
 [[menu.main]]
     name = 'Blog'
-    url = 'posts/'
+    url = 'blog/'
     weight = 2
