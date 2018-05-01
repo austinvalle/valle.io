@@ -1,7 +1,7 @@
 baseURL = 'http://valle.io/'
 languageCode = 'en-us'
 title = 'valle.io'
-theme = 'valle-beautifulhugo'
+theme = 'io-beautifulhugo'
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
