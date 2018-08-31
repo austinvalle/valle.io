@@ -5,6 +5,16 @@ import './Projects.css';
 
 const projects = [
     {
+        'name': 'raceCondition',
+        'description': 'Web app that allows developers to competitively solve solutions and battle against their friends!',
+        'logoUrl': 'https://i.imgur.com/AiuaEDi.png',
+        'technologies': [
+            { 'name': 'React', 'url': 'https://i.imgur.com/2M2VsUq.png', 'source': 'https://reactjs.org/' },
+            { 'name': 'Node.js', 'url': 'https://i.imgur.com/0unEjS6.png', 'source': 'https://nodejs.org/' },
+            { 'name': 'Docker', 'url': 'https://i.imgur.com/sOzQJP6.png', 'source': 'https://www.docker.com/' }
+        ]
+    },
+    {
         'name': 'hammy-bot',
         'description': 'Google Hangouts bot that provides data about links and performs other utility functions',
         'gitRepo': 'https://github.com/moosebot/hammy-bot',
