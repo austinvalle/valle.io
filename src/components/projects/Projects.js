@@ -5,7 +5,7 @@ import './Projects.css';
 
 const projects = [
     {
-        'name': 'raceCondition',
+        'name': 'raceCondition (in-progress)',
         'description': 'Web app that allows developers to competitively solve solutions and battle against their friends!',
         'logoUrl': 'https://i.imgur.com/AiuaEDi.png',
         'technologies': [
