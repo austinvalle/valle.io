@@ -1,0 +1,58 @@
+baseURL = "https://valle.io/"
+languageCode = "en-us"
+title = "valle.io"
+theme = "bilberry-hugo-theme"
+enableRobotsTXT = true
+DefaultContentLanguage = "en"
+# Enable / Disable Google Analytics statistics for your site
+googleAnalytics = ""
+# Enable / Disable comments on the articles via Disqus.
+disqusShortname = ""
+
+[params]
+    author = "Austin Valle"
+    # Custom CSS / JS modules that will be imported by the template.
+    # Files are relative to the static/ directory or a URL.
+    # Files are imported in the order they appear here, after
+    # theme.css and theme.js, respectively.
+    css_modules = []
+    js_modules = []
+    description = "Personal site and blog for Austin Valle."
+    keywords = "blog,personal,responsive,coding,programming,golang,angular,react,c#,nodejs,javascript,html,css,web,design,software,architecture"
+    paginate = 10
+    enable_mathjax    = false
+    algolia_search    = true
+    algolia_appId     = "06FHONABMS"
+    algolia_apiKey    = "00aac18ce73334f28bbecab89e14d9b6"
+    algolia_indexName = "valle-blog"
+    algolia_currentLanguageOnly = true
+    subtitle = "I design and build software."
+    gravatarEMail = "austinvalle@gmail.com"
+    customImage = ""
+    favicon = ""
+    # always display the top navigation (with pages and search) on non-mobile screens
+    permanentTopNav = false
+    showHeaderLanguageChooser = false
+    showFooterLanguageChooser = false
+    showFooter = true
+    amountLatestPostsInFooter = 10
+    amountCategoriesInFooter = 10
+    showSocialMedia = true
+    github     = "https://github.com/moosebot"
+    linkedin   = "https://www.linkedin.com/in/austin-valle-9773496a/"
+    twitter    = "https://twitter.com/TheRealLednerb"
+    youtube    = "https://www.youtube.com/channel/UC6G4-Xp-d-geuCGoITlCwZw"
+    copyrightUrl = "https://github.com/moosebot"
+    copyrightBy = "by Austin Valle"
+[Languages]
+    [Languages.en]
+        weight = 1
+
+[taxonomies]
+    author   = "author"
+    tag      = "tags"
+    category = "categories"
+
+[outputs]
+    home = [ "HTML", "JSON", "RSS" ]
+    page = [ "HTML" ]
