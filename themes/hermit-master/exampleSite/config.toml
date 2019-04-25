@@ -1,10 +1,12 @@
-baseURL = "https://valle.io/"
+baseURL = "https://example.com"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "valle.io"
-theme = "hermit-master"
+title = "Hugo Hermit"
+theme = "hermit"
+# enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
+# hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
@@ -12,7 +14,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 # disqusShortname = "yourdiscussshortname"
 
 [author]
-  name = "Austin Valle"
+  name = "John Doe"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -34,9 +36,12 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # images = [""]
   themeColor = "#494f5c"
 
-  homeSubtitle = "I design and build software."
-  footerCopyright = ''
-  bgImg = "https://i.pinimg.com/originals/22/fb/ca/22fbca611964bf31d3a2a20d8898ade4.jpg"  # Homepage background-image URL
+  homeSubtitle = "A minimal and fast theme for Hugo."
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  # bgImg = ""  # Homepage background-image URL
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = "https://github.com/username/repository/commit/"
 
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = false  # Set "text-align: justify" to `.content`.
@@ -48,33 +53,24 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
     name = "twitter"
-    url = "https://twitter.com/_moosebot"
+    url = "https://twitter.com/"
+
+  [[params.social]]
+    name = "instagram"
+    url = "https://instagram.com/"
 
   [[params.social]]
     name = "github"
-    url = "https://github.com/moosebot"
-
-  [[params.social]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/austin-valle-9773496a/"
-
-  [[params.social]]
-    name = "youtube"
-    url = "https://www.youtube.com/channel/UC6G4-Xp-d-geuCGoITlCwZw"
-
-  [[params.social]]
-    name = "email"
-    url = "austinvalle@gmail.com"
+    url = "https://github.com/"
 
 [menu]
 
   [[menu.main]]
-    name = "About"
-    url = "about/"
+    name = "Posts"
+    url = "posts/"
     weight = 10
 
   [[menu.main]]
-    name = "Posts"
-    url = "posts/"
+    name = "About"
+    url = "about-hugo/"
     weight = 20
-
