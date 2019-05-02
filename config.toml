@@ -1,80 +1,55 @@
-baseURL = "https://valle.io/"
-languageCode = "en-us"
-defaultContentLanguage = "en"
+baseurl = "https://valle.io"
+DefaultContentLanguage = "en"
 title = "valle.io"
-theme = "hermit-master"
-pygmentsCodefences  = true
-pygmentsUseClasses  = true
-rssLimit = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
-enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-# googleAnalytics = "UA-123-45"
-# disqusShortname = "yourdiscussshortname"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+disqusShortname = "valle-io"
+# Comment out while working locally
+# googleAnalytics = "UA-125409456-1"
 
-[author]
+[Params]
+  homeTitle = "Austin Valle" # Set a different text for the header on the home page
+  subtitle = "I design and build software."
+  logo = "img/avatar-icon.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = false
+  useHLJS = false
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = false
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+
+[Author]
   name = "Austin Valle"
+  email = "austinvalle@gmail.com"
+  github = "moosebot"
+  twitter = "_moosebot"
+  linkedin = "austin-valle-9773496a"
+  stackoverflow = "users/6777540/austin-valle"
+  youtube = "channel/UC6G4-Xp-d-geuCGoITlCwZw"
 
-[blackfriday]
-  # hrefTargetBlank = true
-  # noreferrerLinks = true
-  # nofollowLinks = true
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
 
-[taxonomies]
-  tag = "tags"
-  # Categories are disabled by default.
+[[menu.main]]
+    name = "Projects"
+    url = "projects/"
+    weight = 1
 
-[params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
-
-  # Metadata mostly used in document's head
-  # description = ""
-  # images = [""]
-  themeColor = "#494f5c"
-
-  homeSubtitle = "I design and build software."
-  footerCopyright = ''
-  bgImg = "https://i.pinimg.com/originals/22/fb/ca/22fbca611964bf31d3a2a20d8898ade4.jpg"  # Homepage background-image URL
-
-  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
-  justifyContent = false  # Set "text-align: justify" to `.content`.
-
-  # Add custom css
-  # customCSS = ["css/foo.css", "css/bar.css"]
-
-  # Social Icons
-  # Check https://github.com/Track3/hermit#social-icons for more info.
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/_moosebot"
-
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/moosebot"
-
-  [[params.social]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/austin-valle-9773496a/"
-
-  [[params.social]]
-    name = "youtube"
-    url = "https://www.youtube.com/channel/UC6G4-Xp-d-geuCGoITlCwZw"
-
-  [[params.social]]
-    name = "email"
-    url = "austinvalle@gmail.com"
-
-[menu]
-
-  [[menu.main]]
+[[menu.main]]
     name = "About"
     url = "about/"
-    weight = 10
-
-  [[menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 20
-
+    weight = 3
