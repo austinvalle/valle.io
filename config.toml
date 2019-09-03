@@ -1,34 +1,8 @@
 baseurl = "https://valle.io"
-DefaultContentLanguage = "en"
 title = "valle.io"
-theme = "beautifulhugo"
-metaDataFormat = "yaml"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
-disqusShortname = "valle-io"
-# Comment out while working locally
-# googleAnalytics = "UA-125409456-1"
+theme = "valle.io"
 
 [Params]
-  homeTitle = "Austin Valle" # Set a different text for the header on the home page
-  subtitle = "I design and build software."
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = true
-  comments = true
-  readingTime = true
-  wordCount = false
-  useHLJS = false
-  socialShare = true
-  delayDisqus = true
-  showRelatedPosts = false
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
-
 
 [Author]
   name = "Austin Valle"
@@ -38,18 +12,3 @@ disqusShortname = "valle-io"
   linkedin = "austin-valle-9773496a"
   stackoverflow = "users/6777540/austin-valle"
   youtube = "channel/UC6G4-Xp-d-geuCGoITlCwZw"
-
-[[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 1
-
-[[menu.main]]
-    name = "Projects"
-    url = "projects/"
-    weight = 1
-
-[[menu.main]]
-    name = "About"
-    url = "about/"
-    weight = 3
