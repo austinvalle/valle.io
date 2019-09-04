@@ -1,8 +1,48 @@
+/* ************** */
+/*   Global css   */
+/* ************** */
 :root {
 	font-size: 62.5%;
 }
 
+html, body {
+	min-height: 100vh;
+	overflow: auto;
+}
+
 body {
+	margin: 0;
 	font-family: 'Manjari', sans-serif;
 	font-size: 1.6rem;
+}
+
+a, a:hover, a:focus, a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* ************** */
+/* Navigation css */
+/* ************** */
+nav ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.nav {
+	margin: 2rem;
+}
+
+.nav-items {
+	display: flex;
+}
+
+.nav-items .nav-item:nth-child(2) {
+	margin-left: auto;
+	margin-right: 1rem;
+}
+
+.nav-item:nth-child(3) {
+	margin-right: 1rem;
 }
