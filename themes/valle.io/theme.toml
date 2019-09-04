@@ -1,11 +1,8 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/gohugoio/hugoThemes#themetoml for an example
-
-name = "Valle.Io"
+name = "valle.Io"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+licenselink = "https://github.com/moosebot/valle.io/blob/master/themes/valle.io/LICENSE"
 description = ""
-homepage = "http://example.com/"
+homepage = "https://github.com/moosebot/valle.io/tree/master/themes/valle.io"
 tags = []
 features = []
 min_version = "0.41"

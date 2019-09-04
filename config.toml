@@ -3,6 +3,7 @@ title = "valle.io"
 theme = "valle.io"
 
 [Params]
+  favicon = "img/favicon.png"
 
 [Author]
   name = "Austin Valle"
