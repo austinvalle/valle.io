@@ -3,18 +3,18 @@
 	  content="IE=edge">
 <meta name="viewport"
 	  content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-{{- with .Site.Params.favicon }}
+{{ with .Site.Params.favicon }}
 <link href='{{ . | absURL }}'
 	  rel='icon'
 	  type='image/png' />
-{{- end -}}
-{{- with .Site.Title }}
+{{ end }}
+{{ with .Site.Title }}
 <title>{{ . }}</title>
-{{- end }}
-{{- with .Site.Author.name }}
+{{ end }}
+{{ with .Site.Author.name }}
 <meta name="author"
 	  content="{{ . }}" />
-{{- end }}
+{{ end }}
 {{ hugo.Generator }}
 
 <link rel="alternate"
@@ -22,7 +22,7 @@
 	  type="application/rss+xml"
 	  title="{{ .Site.Title }}">
 
-<link href="https://fonts.googleapis.com/css?family=Manjari:400,700&display=swap"
+<link href="https://fonts.googleapis.com/css?family=Manjari:400,700&display=optional"
 	  rel="stylesheet">
 
 <link href="css/normalize.css"
