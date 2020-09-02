@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{RXBc:function(n,e,t){"use strict";t.r(e),t.d(e,"default",(function(){return c}));var o=t("q1tI"),u=t.n(o);function c(){return u.a.createElement("h1",null,"Hello valle.io!")}}}]);
-//# sourceMappingURL=component---src-pages-index-js-6cad7d3384e8f0a5e27a.js.map
