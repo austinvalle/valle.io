@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import React from "react";
 import Layout from "../components/layout";
 import portfolioImage from "../images/portfolio.jpg"
@@ -16,10 +17,7 @@ export default function Home() {
 						<h2>Hey! I'm Austin...</h2>
 						<p>
 							I'm a full-stack developer currently working at Progressive Insurance.
-							In my current role I lead a team of developers, building solutions for the Claims platform.
-							These solutions range from web applications to support internal loss reporting, to exposing APIs
-							to partners such as Uber and Safelite. These applications are primarily built with Angular, .NET Web API,
-							and SQL Server/DB2.
+							In my current role, I work on a team supporting <Link className="io-fao-link" to="https://www.foragentsonly.com">https://www.foragentsonly.com</Link> for the Agent Services platform.
 						</p>
 						<p>
 							In my free time, I am passionate about learning new programming languages, frameworks, and emerging

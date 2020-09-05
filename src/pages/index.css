@@ -28,6 +28,10 @@
     align-self: center;
 }
 
+.io-fao-link {
+	text-decoration: underline;
+}
+
 @media (max-width: 1024px)
 {
     .io-home-picture {
