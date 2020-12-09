@@ -15,7 +15,7 @@ export default function Navigation() {
 			<ul className="io-nav-items" role="navigation">
 				<li className="io-nav-link"><Link to='/projects' activeStyle={activeLinkStyle}>Projects</Link></li>
 				<li style={{ marginLeft: "auto" }}>
-					<a target="_blank" href="https://github.com/moosebot" className="io-icon" rel="noopener noreferrer">
+					<a target="_blank" href="https://github.com/austinvalle" className="io-icon" rel="noopener noreferrer">
 						<FontAwesomeIcon className="io-icon" icon={faGithub} />
 					</a>
 				</li>
@@ -25,7 +25,7 @@ export default function Navigation() {
 					</a>
 				</li>
 				<li>
-					<a target="_blank" href="https://twitter.com/_moosebot" className="io-icon" rel="noopener noreferrer">
+					<a target="_blank" href="https://twitter.com/_austinvalle" className="io-icon" rel="noopener noreferrer">
 						<FontAwesomeIcon icon={faTwitter} />
 					</a>
 				</li>

@@ -19,9 +19,9 @@ const projects = [
 	{
 		'name': 'hammy-bot',
 		'description': 'Google Hangouts bot that provides data about links and performs other utility functions',
-		'gitRepo': 'https://github.com/moosebot/hammy-bot',
-		'projectUrl': 'https://github.com/moosebot/hammy-bot',
-		'logoUrl': 'https://raw.githubusercontent.com/moosebot/hammy-bot/master/logo-only.png',
+		'gitRepo': 'https://github.com/austinvalle/hammy-bot',
+		'projectUrl': 'https://github.com/austinvalle/hammy-bot',
+		'logoUrl': 'https://raw.githubusercontent.com/austinvalle/hammy-bot/master/logo-only.png',
 		'technologies': [
 			{ 'name': 'Node.js', 'url': 'https://i.imgur.com/0unEjS6.png', 'source': 'https://nodejs.org/' },
 			{ 'name': 'Heroku', 'url': 'https://i.imgur.com/ykKgOQd.png', 'source': 'https://www.heroku.com/' }
@@ -30,8 +30,8 @@ const projects = [
 	{
 		'name': 'gotube',
 		'description': 'golang CLI for downloading youtube videos/audio and renaming metadata',
-		'gitRepo': 'https://github.com/moosebot/gotube',
-		'projectUrl': 'https://github.com/moosebot/gotube',
+		'gitRepo': 'https://github.com/austinvalle/gotube',
+		'projectUrl': 'https://github.com/austinvalle/gotube',
 		'logoUrl': 'https://i.imgur.com/zN76cbU.png',
 		'technologies': [
 			{ 'name': 'golang', 'url': 'https://i.imgur.com/Rw9cs8N.png', 'source': 'https://golang.org/' }
